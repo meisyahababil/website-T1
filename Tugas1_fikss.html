@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Lucu Memey</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffeef6;
+            color: #5b294a;
+        }
+        header {
+            background: linear-gradient(135deg, #ffccd5, #ffb3c7);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #ff80aa;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            background: url('https://i.pinimg.com/736x/18/d1/3b/18d13bca123dadc3299b17a9b786353e.jpg') no-repeat center;
+            background-size: contain;
+            height: 50px;
+            width: 100px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff6699;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        img {
+            width: 45%;
+            border: 5px solid #ff80aa;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        footer {
+            background: #ffb3c7;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            border-top: 5px solid #ff80aa;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            border: 2px solid #ffb3c7;
+            padding: 10px;
+            text-align: center;
+        }
+        table th {
+            background: #ff6699;
+            color: white;
+        }
+        form {
+            background: #ffeef6;
+            padding: 20px;
+            border: 2px solid #ffb3c7;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #ff80aa;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #ffb3c7;
+            border-radius: 10px;
+        }
+        form button {
+            background: #ff6699;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #ff3366;
+        }
+        /* Tambahan elemen dekoratif */
+        .ribbon {
+            position: relative;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 20px;
+            color: #5b294a;
+            font-weight: bold;
+        }
+        .ribbon::before, .ribbon::after {
+            content: '';
+            position: absolute;
+            height: 20px;
+            width: 100px;
+            background: #ffb3c7;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .ribbon::before {
+            left: -110px;
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+        }
+        .ribbon::after {
+            right: -110px;
+            clip-path: polygon(100% 0, 0 50%, 100% 100%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Meisyah Ababil</h1>
+        <p>Website ini dibuat untuk tugas HTML Sederhana</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#konten">Konten</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="tentang">
+        <h2>Tentang Website</h2>
+        <div class="ribbon">Penting! Baca Dulu</div>
+        <p>Website ini hanya berisi codingan untuk membuat website sederhana dari HTML!</p>
+            <header>
+                 <img src="sheet html.png" alt="Kode HTML">
+            </header>
+        <p>Gambar ini juga bisa diklik untuk berpindah ke <a href="https://www.jagoanhosting.com/blog/contoh-coding-html/" target="_blank">sumber inspirasi!</a></p>
+    </section>
+
+    <section id="konten">
+        <h2>Konten</h2>
+        <h3>Daftar Topik Menarik:</h3>
+        <ul>
+            <li><b>HTML Dasar:</b> Pondasi website</li>
+            <li><b>CSS Sederhana:</b> Styling </li>
+            <li><b>Pemrograman Web:</b> Tingkat lanjut</li>
+        </ul>
+
+        <h3>Basic Of HTML</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Code</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td> "html - /html" </td>
+                    <td> start and end document</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> "h1 - /h1" </td>
+                    <td> Heading Tags (h1 to h6) </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> "p - /p" </td>
+                    <td> Paragraph Tag </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td> "b - /b" </td>
+                    <td> Bold Text Tag </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td> "i - /i" </td>
+                    <td> italic Tag </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td> "ul - /ul" </td>
+                    <td> un-order list Tag </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td> "ol - /ol" </td>
+                    <td> order list Tag </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td> "li - /li" </td>
+                    <td> List items Tag </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td> "form - /form" </td>
+                    <td> Basic Form Tag </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td> "table - /table" </td>
+                    <td> Table Tag </td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td> " a href= "url" - /a "  </td>
+                    <td> Basic Link Tag </td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td> "img src = "url"  </td>
+                    <td> Image Tag </td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td> "src=url" </td>
+                    <td> Source Path (url/file name) </td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td> "br" </td>
+                    <td> Line Break Tag </td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td> "hr" </td>
+                    <td> Horizontal Line Tag </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="kontak">
+        <h2>Form Kontak </h2>
+        <form action="#" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama anda">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email anda">
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" placeholder="Pesan" rows="5"></textarea>
+
+            <button type="submit">Kirim Pesan!</button>
+        </form>
+    </section>
+
+    <footer>
+        <p> Meisyah Ababil </p>
+        <p> 233510092 </p>
+    </footer>
+</body>
+</html>
